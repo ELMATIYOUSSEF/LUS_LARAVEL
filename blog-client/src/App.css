@@ -1,0 +1,65 @@
+/* Styles personnalisés pour l'application */
+
+/* Augmenter l'espacement autour du contenu principal */
+main {
+  padding: 30px 0;
+}
+
+/* Styles pour les cartes */
+.card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Style pour les boutons d'action dans les tableaux */
+.btn-sm {
+  margin-right: 5px;
+}
+
+/* Amélioration de l'espacement dans les formulaires */
+.form-label {
+  font-weight: 500;
+}
+
+/* Animation pour les transitions de page */
+.fade-in {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Style pour les messages d'alerte */
+.alert {
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Amélioration de l'apparence du footer */
+footer {
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style pour les tableaux */
+.table-responsive {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Style pour les en-têtes de section */
+h2 {
+  margin-bottom: 20px;
+  border-bottom: 2px solid #f8f9fa;
+  padding-bottom: 10px;
+}
